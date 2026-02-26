@@ -19,10 +19,10 @@ jobs:
           dotnet-version: 10.0.x
 
       - name: Restore dependencies
-        run: dotnet restore sharwapi.Plugin.guard/sharwapi.Plugin.guard.csproj
+        run: dotnet restore sharwapi.Plugin.guard.csproj
 
       - name: Build
-        run: dotnet build sharwapi.Plugin.guard/sharwapi.Plugin.guard.csproj --configuration Release --no-restore
+        run: dotnet build sharwapi.Plugin.guard.csproj --configuration Release --no-restore
 
       - name: Upload plugin DLL artifact
         uses: actions/upload-artifact@v4
