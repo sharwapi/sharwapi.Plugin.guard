@@ -15,7 +15,7 @@ It provides a lightweight route protection mechanism. Through configuration, you
 ## Installation & Usage
 
 1. Download the compiled `.dll` file from [Releases](https://github.com/sharwapi/sharwapi.plugin.guard/releases).
-2. Place it into the `Plugins` directory of the Core API.
+2. Place it into the `plugins` directory of the Core API.
 3. Configure the `appsettings.json` file of the Core API (see below).
 4. Restart the API.
 

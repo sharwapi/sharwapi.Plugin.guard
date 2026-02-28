@@ -15,7 +15,7 @@
 ## 安装与使用
 
 1.  在 [Release](https://github.com/sharwapi/sharwapi.plugin.guard/releases) 获取插件编译后的 `.dll` 文件
-2.  将其放入 API 本体的 `Plugins` 目录中
+2.  将其放入 API 本体的 `plugins` 目录中
 3.  配置 API 本体的 `appsettings.json` 文件（见下文）
 4.  重启 API
 
